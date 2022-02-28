@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Time To Tour</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<!-- Header, nav-bar and nav-link-->
+	<header id="header">
+		<nav id="nav-bar">
+			<img src="img/logo.png" alt="company logo" id="header-img">
+			<div id="TT"><h4>Time to Tour</h4></div>
+			<a class="nav-link" href="#home"><h4>Home</h4></a>
+			<a class="nav-link" href="#tiantan"><h4>Our Package Tour</h4></a>
+			<a class="nav-link" href="#form"><h4>Signup</h4></a>
+		</nav>
+	</header>
+
+	<!-- blank space to keep the fixed header-->
+	<div class="space" id="home"> &nbsp; </div>
+
+	<!-- banner -->
+	<img id="playa" src="img/playa.jpg" alt="beautiful beach" width="1330" height="200">
+
+	<!--Title -->
+	<h1 id="TimeTo"> Time To Choose Your Destination</h1>
+
+	<!-- Package tour image -->
+	<div class="wrapper">
+		<figure class="row-1-1">
+			<img src="img/tiantan.JPG" alt="Temple of Heaven" id="tiantan" width="600px" height="360px">
+			<figcaption>East Asia Tour <br>Lorem ipsum dolor sit amet </figcaption>
+		</figure>
+		<figure class="row-1-2">
+			<img src="img/sevilla.JPG" alt="Plaza España" id="plaza" width="600px" height="360px">
+			<figcaption>South West Europe <br>Lorem ipsum dolor sit amet </figcaption>
+		</figure>
+		<figure class="row-2-1">
+			<img src="img/SegPuen.jpg" alt="Puente de Segovia" id="puente" width="600px" height="360px">
+			<figcaption>Special Spain <br>Lorem ipsum dolor sit amet </figcaption>
+		</figure>
+		<figure class="row-2-2">
+			<img src="img/beach.JPG" alt="Beach" id="beach" width="600px" height="360px">
+			<figcaption>Tropical Beach <br>Lorem ipsum dolor sit amet </figcaption>
+		</figure>
+	</div>
+	<br>
+
+	<!--Video-->
+	<video id="video" controls>
+		<source src="img/Segovia.mp4" type="video/mp4">
+		Check your browser
+	</video>
+	<br>
+
+	<!-- Form -->
+	<form action="https://www.freecodecamp.com/email-submit" id="form">
+		<label for="email" id="email-label"> <h4> Sign up for our special offer and latest information </h4> </label> <br>
+		<input type="email" name="email" id="email" required placeholder="email address"> <br>
+		<input type="submit" name="submit" value="submit" id="submit">
+	</form>
+
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
